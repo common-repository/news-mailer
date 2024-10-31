@@ -1,0 +1,7 @@
+%BLOGNAME% | %DATE%
+
+%ARTICLES%
+
+    -~-
+
+Footer message

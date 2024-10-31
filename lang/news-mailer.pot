@@ -1,0 +1,364 @@
+# Copyright (C) 2010 News Mailer
+# This file is distributed under the same license as the News Mailer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: News Mailer 0.5.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/news-mailer\n"
+"POT-Creation-Date: 2011-02-19 18:13:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-02-19 19:18+0100\n"
+"Last-Translator: Joel Bergroth <edvind@me.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: news-mailer.php:238
+#: news-mailer.php:243
+msgid "Mail"
+msgstr ""
+
+#: news-mailer.php:239
+#: newsletter.php:7
+msgid "Compose Newsletter"
+msgstr ""
+
+#: news-mailer.php:239
+msgid "Newsletter"
+msgstr ""
+
+#: news-mailer.php:243
+#: options-mail.php:26
+msgid "Mail Settings"
+msgstr ""
+
+#: options-mail.php:34
+msgid "From name"
+msgstr ""
+
+#: options-mail.php:35
+msgid "Default sender name in outgoing mail."
+msgstr ""
+
+#: options-mail.php:39
+msgid "From mail"
+msgstr ""
+
+#: options-mail.php:40
+msgid "Default sender mail adress in outgoing mail."
+msgstr ""
+
+#: options-mail.php:44
+msgid "News Mailer Settings"
+msgstr ""
+
+#: options-mail.php:52
+msgid "The <code>max_execution_time</code> in your php.ini is set to 30 seconds or less. This can affect the stability of the mailing process, especially when mass mailing. If you are experiencing problems with recipents not receiving mails, increasing this value may solve the problem."
+msgstr ""
+
+#: options-mail.php:64
+msgid "Potential issues:"
+msgstr ""
+
+#: options-mail.php:78
+msgid "Transport"
+msgstr ""
+
+#: options-mail.php:79
+msgid "You can specify what transport type you would like Wordpress to use when sending newsletters. The default wp_mail() function is of course working well but isn't implemented to News Mailer yet. If you want to use encryption or send mails to a large number of recipents at the same time, another transport such as SMTP is preferred."
+msgstr ""
+
+#: options-mail.php:83
+msgid "Transport type"
+msgstr ""
+
+#: options-mail.php:88
+#: options-mail.php:100
+#: options-mail.php:124
+msgid "SMTP"
+msgstr ""
+
+#: options-mail.php:88
+#: options-mail.php:107
+msgid "MTA"
+msgstr ""
+
+#: options-mail.php:88
+#: options-mail.php:114
+msgid "Default"
+msgstr ""
+
+#. translators: Description of SMTP setting
+#: options-mail.php:102
+msgid "The Swiftmailer SMTP transport. Supports logging and many other features. <strong>Recommended setting</strong>."
+msgstr ""
+
+#. translators: Description of MTA setting
+#: options-mail.php:109
+msgid "Use a locally installed Mail Transfer Agent. This feature is not recommended, it hasn't been properly tested yet"
+msgstr ""
+
+#. translators: Description of the default setting
+#: options-mail.php:116
+msgid "Wordpress default wp_mail() function."
+msgstr ""
+
+#: options-mail.php:128
+msgid "URL"
+msgstr ""
+
+#: options-mail.php:130
+msgid "Port"
+msgstr ""
+
+#: options-mail.php:132
+msgid "Default settings in php.ini:"
+msgstr ""
+
+#: options-mail.php:137
+msgid "Username"
+msgstr ""
+
+#: options-mail.php:142
+msgid "Password"
+msgstr ""
+
+#: options-mail.php:147
+msgid "Encryption"
+msgstr ""
+
+#: options-mail.php:152
+msgid "&mdash; None &mdash;"
+msgstr ""
+
+#: options-mail.php:152
+msgid "SSL"
+msgstr ""
+
+#: options-mail.php:152
+msgid "TLS"
+msgstr ""
+
+#: options-mail.php:175
+msgid "<strong>Varning:</strong> This PHP installation does not support encryption over SSL or TLS."
+msgstr ""
+
+#: options-mail.php:189
+msgid "Mail Transfer Agent (MTA)"
+msgstr ""
+
+#: options-mail.php:193
+msgid "Path"
+msgstr ""
+
+#: options-mail.php:194
+msgid "Location of sendmail or another MTA. Defaults to the <code>sendmail_path</code> in php.ini"
+msgstr ""
+
+#: options-mail.php:198
+msgid "Sendmail command line flag"
+msgstr ""
+
+#: options-mail.php:203
+msgid "-bs"
+msgstr ""
+
+#: options-mail.php:212
+msgid "If you run sendmail in \"-t\" mode you will get no feedback as to whether or not sending has succeeded. Use \"-bs\" unless you have a reason not to."
+msgstr ""
+
+#: options-mail.php:220
+msgid "AntiFlood"
+msgstr ""
+
+#: options-mail.php:221
+msgid "Many SMTP servers have limits on the number of messages that may be sent during any single SMTP connection. The AntiFlood feature provides a way to stay within this limit while still managing a large number of emails."
+msgstr ""
+
+#: options-mail.php:230
+msgid "Enable"
+msgstr ""
+
+#: options-mail.php:231
+msgid "Highly recommended. Though only available when SMTP or MTA is used as transport."
+msgstr ""
+
+#: options-mail.php:240
+msgid "Mails"
+msgstr ""
+
+#: options-mail.php:241
+msgid "Disconnect and then re-connect to the server when this number of mails is sent."
+msgstr ""
+
+#: options-mail.php:245
+msgid "Seconds"
+msgstr ""
+
+#: options-mail.php:246
+msgid "Seconds of pause between connections."
+msgstr ""
+
+#: options-mail.php:250
+msgid "Type"
+msgstr ""
+
+#: options-mail.php:263
+msgid "Swiftmailer"
+msgstr ""
+
+#: options-mail.php:264
+msgid "wp-cron"
+msgstr ""
+
+#: options-mail.php:266
+msgid "If the pause between the connections is a matter of seconds, Swiftmailer is recommended. If minutes or even hours wp-cron will probably work better."
+msgstr ""
+
+#: options-mail.php:277
+msgid "Save Changes"
+msgstr ""
+
+#: newsletter.php:13
+msgid "Welcome to News Mailer!"
+msgstr ""
+
+#: newsletter.php:14
+msgid "In order to use the plugin you'll have to go to the Mail settings page found under the settings section in the menu and change the transport type used by News Mailer. SMTP is recommended."
+msgstr ""
+
+#: newsletter.php:15
+msgid "The current template is a project that I'm working on. It's two files, one for the HTML part of the mail and one for the plain text part. Feel free to modify them to suit your needs. Remember to back them up since they're at the moment overwritten when you update the plugin."
+msgstr ""
+
+#: newsletter.php:16
+msgid "Thank you for installing News Mailer, this message will now self destruct. *poff*"
+msgstr ""
+
+#: newsletter.php:17
+msgid "/Joel Bergroth, creator"
+msgstr ""
+
+#: newsletter.php:27
+msgid "Warning: The default WordPress mail transport is currently not supported by News Mailer. Go to the Mail settings and change the transport to either SMTP (recommended) or MTA."
+msgstr ""
+
+#: newsletter.php:35
+msgid "Send a newsletter to the users of this blog."
+msgstr ""
+
+#: newsletter.php:38
+msgid "Head"
+msgstr ""
+
+#: newsletter.php:41
+msgid "From:"
+msgstr ""
+
+#: newsletter.php:45
+msgid "Send to"
+msgstr ""
+
+#: newsletter.php:48
+msgid "All"
+msgstr ""
+
+#: newsletter.php:54
+msgid "Subject"
+msgstr ""
+
+#: newsletter.php:54
+#: newsletter.php:63
+msgid "(required)"
+msgstr ""
+
+#: newsletter.php:58
+msgid "Articles"
+msgstr ""
+
+#: newsletter.php:60
+msgid "First article"
+msgstr ""
+
+#: newsletter.php:63
+#: newsletter.php:79
+msgid "Title"
+msgstr ""
+
+#: newsletter.php:67
+#: newsletter.php:83
+msgid "Preamble"
+msgstr ""
+
+#: newsletter.php:71
+#: newsletter.php:87
+msgid "Body"
+msgstr ""
+
+#: newsletter.php:76
+msgid "Second article (optional)"
+msgstr ""
+
+#: newsletter.php:92
+msgid "Other mail settings"
+msgstr ""
+
+#: newsletter.php:95
+msgid "Events"
+msgstr ""
+
+#: newsletter.php:96
+msgid "Include upcoming events. (Not yet available)"
+msgstr ""
+
+#: newsletter.php:99
+msgid "User information"
+msgstr ""
+
+#: newsletter.php:100
+msgid "Include user information"
+msgstr ""
+
+#: newsletter.php:104
+msgid "Send"
+msgstr ""
+
+#: send-mail.php:142
+msgid "Log"
+msgstr ""
+
+#: send-mail.php:146
+msgid "Sorry, but the wp_mail transport is currently not supported by News Mailer. Please change your settings to SMTP in the Mail Settings."
+msgstr ""
+
+#: send-mail.php:247
+msgid "Mailing started with wp-cron"
+msgstr ""
+
+#: send-mail.php:250
+msgid "The wp-cron job has finished sending mails to listed recipients. Next wp-cron job will begin in %d second."
+msgid_plural "The wp-cron job has finished sending mails to listed recipients. Next wp-cron job will begin in %d seconds."
+
+#: send-mail.php:255
+msgid "Mailing started"
+msgstr "Skickar e-post"
+
+#. Plugin Name of the plugin/theme
+msgid "News Mailer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://edvindev.wordpress.com/news-mailer/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simple plugin for mailing news or updates to members registered on the blog."
+msgstr "Tillägg för att e-posta nyheter och uppdateringar till bloggens användare."
+
+#. Author of the plugin/theme
+msgid "Joel Bergroth"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://edvindev.wordpress.com"
+msgstr ""
+
